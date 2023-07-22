@@ -1,0 +1,19 @@
+{
+  "name": "stock",
+  "version": "1.0.0",
+  "description": "este es una api diseñada para los stock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andycr123/stock.git"
+  },
+  "author": "andy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andycr123/stock/issues"
+  },
+  "homepage": "https://github.com/andycr123/stock#readme"
+}
