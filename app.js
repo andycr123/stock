@@ -1,6 +1,20 @@
  var express = require('express');
  var mysql = require('mysql');
 
+
+ var conexion = mysql.createConnection({
+    host:'localhost',
+    user:'root',
+    password:'',
+    database:'tienda_onlie'
+ });
+
+ conexion.connect(function(error){
+    if(error){
+        
+    }
+ })
+
  var app =  express();
  app.get( puerto, function(res, resq){
      res.send('Ruta de inicio');
